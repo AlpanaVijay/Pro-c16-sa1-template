@@ -13,7 +13,8 @@ class Box
       rect(this.x,this.y,this.w,this.h)
     }
     
-    //write function to set the width of the box
+    set_width(width){
+      this.w = width
 
   }
 
